@@ -46,7 +46,7 @@
             </nav>
         </header>
         <section class="hero">
-            <div class="container col-xxl-8 px-4 py-5">
+            <div class="container col-xxxl-8 px-4 py-5">
                 <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
                 <div class="col-10 col-sm-8 col-lg-6">
                     <lottie-player src="https://assets3.lottiefiles.com/packages/lf20_sk5h1kfn.json" background="transparent" speed="1" style="width: 100%; height: auto;" loop autoplay></lottie-player>
@@ -119,3 +119,25 @@
         
     </body>
 </template>
+
+<style>
+    .navbar-header {
+        min-height: 100%;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+    }
+
+    .navbar-brand>img {
+        max-width:100%;
+        max-height:100%;
+    }
+
+    .navbar-brand {
+        padding-top: 0;
+        padding-bottom: 0;
+        display: table-cell;
+        vertical-align: middle;
+        height: 100%;
+    }
+</style>
